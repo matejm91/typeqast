@@ -1,0 +1,13 @@
+.typeqast-appLayout__headerTitle {
+  background: linear-gradient(90deg, #48a1aa, #77c8ce) !important;
+  height: 75px !important;
+  display: inline-block;
+  vertical-align: middle !important;
+  width: 100%;
+}
+
+.typeqast-appLayout__headerImage {
+  height: 55px !important;
+  display: inline-block;
+  vertical-align: middle !important;
+}
