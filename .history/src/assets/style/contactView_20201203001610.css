@@ -1,0 +1,96 @@
+.typeqast-contactView__img {
+  height: 225px !important;
+  border-radius: 110px !important;
+  border: 2px solid #eaeded;
+}
+
+.typeqast-contactView__viewRow {
+  margin: 70px 0;
+}
+
+.typeqast-contactView__contactInfo {
+  margin-top: 45px;
+}
+
+.typeqast-contactView__name {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 600;
+  color: #bbc4c3;
+  margin-left: 10px;
+}
+
+.typeqast-contactView__favoriteIcon {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  color: #bbc4c3;
+}
+
+.typeqast-contactView__editIcon {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  color: #bbc4c3;
+}
+
+.typeqast-contactView__backArrow {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  color: #bbc4c3;
+}
+
+.typeqast-contactView__headerDivider {
+  background-color: #93cfd5 !important;
+  height: 2px !important;
+  min-width: 90% !important;
+  width: 95% !important;
+  margin: 24px auto !important;
+}
+
+.typeqast-contactView__label {
+  color: #4da9b4;
+  font-weight: 600;
+}
+
+.typeqast-contactView__icon {
+  margin: 0 10px;
+}
+
+.typeqast-contactView__userContact {
+  margin-top: 80px;
+  font-size: 18px;
+}
+
+.typeqast-contactView__infoText {
+  color: #bbc4c3;
+  font-size: 18px;
+}
+
+.typeqast-contactView__infoTextRow {
+  margin-bottom: 45px;
+}
+
+.typeqast-contactView__number {
+  margin-left: 25px;
+  text-decoration: underline;
+}
+
+.typeqast-contactView__numberPlaceholder {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .typeqast-contactView__viewRow {
+    justify-content: initial;
+  }
+
+  .typeqast-contactView__img {
+    height: 70px !important;
+  }
+
+  .typeqast-contactView__contactInfo {
+    margin-top: 0;
+  }
+}

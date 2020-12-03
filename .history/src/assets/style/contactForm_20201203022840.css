@@ -1,0 +1,196 @@
+.typeqast-contactForm__submitButton {
+  background-color: #48a2ad;
+  color: #fff;
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.typeqast-contactForm__cancelButton {
+  background-color: #bbc4c3;
+  color: #fff;
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.typeqast-contactForm__uploadDragger {
+  height: 230px !important;
+  width: 230px !important;
+  border-radius: 115px !important;
+  border: 2px solid #eaeded !important;
+  overflow: hidden;
+}
+
+.typeqast-contactForm__uploadDragger img {
+  height: 230px !important;
+  width: 230px !important;
+  border-radius: 115px !important;
+  border: 2px solid #eaeded !important;
+}
+
+.typeqast-contactForm__uploadDragger .ant-upload {
+  padding: 0 !important;
+}
+
+.typeqast-contactForm__uploadDragger .anticon-upload {
+  color: #fff;
+}
+
+.typeqast-contactForm__uploadDragger .ant-upload-drag-container {
+  background-color: #abd9de;
+}
+
+.typeqast-contactForm__form {
+  margin: 70px 0;
+}
+
+.typeqast-contactForm__formItem .ant-form-item-label {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.typeqast-contactForm__formItem {
+  width: 50%;
+}
+
+.typeqast-contactForm__contactInfo {
+  margin-top: 60px;
+  margin-left: 15px;
+}
+
+.typeqast-contactForm__backIcon, .typeqast-contactForm__deleteIcon {
+  float: left;
+  font-size: 22px;
+  font-weight: 600;
+  color: #bbc4c3;
+}
+
+.typeqast-contactForm__sectionDivider {
+  background-color: #93cfd5 !important;
+  height: 2px !important;
+  margin: 20px auto !important;
+}
+
+.typeqast-contactForm__deleteButtonLabel {
+  float: left;
+  font-size: 16px;
+  color: #bbc4c3;
+  margin-right: 20px;
+}
+
+.typeqast-contactForm__icon {
+  font-size: 22px !important;
+  vertical-align: middle !important;
+  color: #48a2ad;
+  margin-right: 20px;
+}
+
+.typeqast-contactForm__formItem .ant-form-item-required {
+  color: #48a2ad;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.typeqast-contactForm__inputField {
+  height: 75px;
+  font-size: 18px;
+  /*width: 50%;*/
+  float: left;
+}
+
+.typeqast-contactForm__inputField-numbers {
+  height: 75px;
+  font-size: 18px;
+  width: 90%;
+  float: left;
+}
+
+.typeqast-contactForm__formItem-numbers .ant-form-item-label {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.typeqast-contactForm__formItem-numbers  .ant-form-item-required {
+  color: #48a2ad;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.typeqast-contactForm__removeNumber {
+  font-size: 30px;
+  color: #48a2ad;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.typeqast-contactForm__addField {
+  float: left;
+  font-size: 16px;
+  border: none;
+  color: #48a2ad;
+  margin: 30px 0 50px;
+}
+
+.typeqast-contactForm__addField .anticon-plus-circle {
+  font-size: 30px;
+  color: #48a2ad;
+}
+
+.typeqast-contactForm__addField > span {
+  vertical-align: super;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .typeqast-contactForm__buttons {
+    justify-content: space-around;
+  }
+
+  .typeqast-contactForm__submitButton, .typeqast-contactForm__cancelButton {
+    margin: 10px 0;
+  }
+
+  .typeqast-contactForm__backIcon {
+    position: relative;
+    top: -280px;
+    left: -80px;
+  }
+
+  .typeqast-contactForm__deleteIcon {
+    position: relative;
+    top: -280px;
+    right: -80px;
+  }
+
+  .typeqast-contactForm__deleteButtonLabel {
+    display: none;
+  }
+
+  .typeqast-contactForm__contactInfo {
+    margin-top: 0;
+    margin-left: 0;
+    width: 85%;
+  }
+
+  .typeqast-contactForm__contactImg {
+    height: 230px;
+    width: 60%;
+  }
+
+  .typeqast-contactForm__formItem {
+    width: initial;
+  }
+
+  .typeqast-contactForm__inputField {
+    height: 55px;
+  }
+
+  .typeqast-contactForm__inputField-numbers {
+    width: 100%;
+  }
+}

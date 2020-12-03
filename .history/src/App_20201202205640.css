@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.AppLayout {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.typeqast-app__headerDivider {
+  background-color: #93cfd5 !important;
+  height: 2px !important;
+  margin: 24px auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .AppLayout {
+    width: 90%;
+  }
+}

@@ -1,0 +1,11 @@
+.typeqast-menu__menuRow {
+  margin: 55px;
+}
+
+.typeqast-menu__navigationItem .ant-typography {
+  color: #bbc4c3;
+}
+
+.active  .ant-typography {
+  color: #48a2ad;
+}
